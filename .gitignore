@@ -1,0 +1,30 @@
+# Node dependencies
+node_modules/
+**/node_modules/
+
+# Environment files
+**/config.env
+.env
+.env.*    
+
+# Environment variables
+backend/ .env
+
+# For .env.development, .env.production, etc.
+
+# Logs and system files
+logs/
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build folders
+**/dist/
+**/build/
+
+# IDEs
+.vscode/
+.idea/
