@@ -25,17 +25,12 @@ React, CSS
 - 📱 Responsive design
 - 🔐 Environment file handling
 
-#  Project Structure
-
-
-
-
 
 #  *Installation & Setup*
 
 1. Clone the repository
 
-bash```
+```
 git clone https://github.com/your-username/tinnara.git
 cd Restaurant
 ```
@@ -52,7 +47,7 @@ npm install
 
 3. Add your .env file in backend/config/config.env
 
-bash```
+```
 PORT=5000
 MONGO_URI=your_mongodb_uri
 FRONTEND_URL=http://localhost:3000
@@ -60,7 +55,7 @@ FRONTEND_URL=http://localhost:3000
 
 4. Run both frontend and backend
 
-bash```
+```
 # In backend
 npm run dev
 
