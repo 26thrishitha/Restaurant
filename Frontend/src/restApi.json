@@ -76,7 +76,8 @@
                 "image": "./team_member_1.png",
                 "name": "Thrishitha",
                 "designation": "Founder",
-                "description": "Compiles biryani layers like clean code - no bugs, only dum."
+                "description": "Compiles biryani layers like clean code - no bugs, only dum.",
+                "link": "https://www.linkedin.com/in/thrishitha-perabathula-bb0427259/"
 
 
                 
@@ -86,7 +87,9 @@
                 "image": "./team_member_2.png",
                 "name": "Pravallika",
                 "designation":"Founder",
-                "description": "Optimizes dosa load time - always hot, crisp, and scalable."
+                "description": "Optimizes dosa load time - always hot, crisp, and scalable.",
+                "link": "https://www.linkedin.com/in/pravallika-nunna/"
+
 
 
             }
@@ -118,17 +121,17 @@
         "who_we_are": [
             {
                 "id": 1,
-                "number": "14",
+                "number": "12",
                 "title": "Restaurants"
             },
             {
                 "id": 2,
-                "number": "20",
+                "number": "26",
                 "title": "Chef In Kitchen"
             },
             {
                 "id": 3,
-                "number": "08",
+                "number": "10",
                 "title": "Years Of Experience"
             },
             {
