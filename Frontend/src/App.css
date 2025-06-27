@@ -490,6 +490,19 @@ nav svg {
   color: #333;
   font-weight: 300;
 }
+
+.team-link {
+  color: #0f1011;               /* blue like typical links */
+  text-decoration: underline;   /* underline always */
+  font-weight: 600;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.team-link:hover {
+  color: #0f1011;               /* darker on hover */
+}
+
 @media (max-width: 1520px) {
   .qualities .container {
     min-width: 100%;
