@@ -15,7 +15,16 @@ const Team = () => {
             return (
               <div className="card" key={element.id}>
                 <img src={element.image} alt={element.name} />
-                <h3>{element.name}</h3>
+                <h3>
+                  <a
+                    href={element.link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="team-link"
+                  >
+                    {element.name}
+                  </a>
+                </h3>
                  <p className="designation">{element.designation}</p>
                  <p className="description">{element.description}</p> {/* updated line */}
               </div>
