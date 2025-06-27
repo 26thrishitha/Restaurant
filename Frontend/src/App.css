@@ -37,8 +37,20 @@ nav::after {
 nav .logo {
   flex: 1;
   display: flex;
-  align-items: center;
+  flex-direction: column;  /* Ensures vertical stack */
+  align-items: flex-start; /* Align text to the left */
   font-size: 2rem;
+  color: #025043;
+}
+
+nav .logo .tagline {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #4a4a4a;
+  margin-top: 2px;
+  letter-spacing: 0.5px;
+  font-style: italic;
 }
 nav .navLinks {
   flex: 2;
